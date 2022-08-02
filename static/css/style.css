@@ -80,6 +80,7 @@
   display: flex;
   width: 100%;
   gap: 4%;
+  
 }
 .main-header {
   display: flex;
@@ -121,9 +122,8 @@
 #name {
   width: 100%;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  background-color: lightcyan;
-  border-color: lightcyan;
+  border: 2px solid #ccc;
+  border-color: darkblue;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -133,7 +133,8 @@
 #textarea {
   width: 100%;
   padding-top: 10px;
-  border: 1px solid white;
+  border: 2px solid #ccc;
+  border-color: darkblue;
   background-color: white;
   height: 100px;
 }
@@ -193,7 +194,7 @@
 }
 .posts li .name_body .name {
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 .posts li .name_body .datetime {
   color: gray;
