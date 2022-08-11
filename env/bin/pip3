@@ -1,4 +1,6 @@
-#!/Users/apple/Desktop/Django-forum/env/bin/python3
+#!/bin/sh
+'''exec' "/Users/techi.s./Desktop/Twitter_clone-forum 2/env/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
