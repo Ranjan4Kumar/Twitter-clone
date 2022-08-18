@@ -1,2 +1,2 @@
-# Django-forum
+# Twitter-Clone
 A forum
