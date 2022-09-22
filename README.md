@@ -4,8 +4,9 @@ Twitter Clone
 Let’s make simple Twitter. Users can post tweets and see everyone’s them.
 To make the project simple, we do not have a sign/login function.
 So there are not user accounts and follow function. You can challenge after you finish the course.
-Check out [LIVE DEMO here!!]()
+Check out [LIVE DEMO here!!](https://twitter-clones.herokuapp.com/)
 # Screenshot
+<img width="603" alt="Screenshot 2022-08-18 at 12 39 39 PM" src="https://user-images.githubusercontent.com/106957343/185345060-b0900f9c-c057-426a-8b5f-fc860e620ffd.png">
 
 # Tech used
 * Html
