@@ -6,6 +6,7 @@ from .forms import PostForm
 
 
 def index(request):
+    posts=Post.objects.all().order_by('-created_at')[:20]
     if request.method=='POST':
         form=PostForm(request.POST,request.FILES)
         if form.is_valid():
@@ -14,7 +15,7 @@ def index(request):
         else:
             return HttpResponseRedirect(form.errors.as_json())
 
-    posts=Post.objects.all().order_by('-created_at')[:20]
+   
     return render(request,'posts.html',
     {'posts':posts})
 
